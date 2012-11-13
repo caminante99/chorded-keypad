@@ -1,0 +1,113 @@
+p { 
+font-family: 'Cherry Swash', cursive;	
+}
+.nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important }
+.nav-glyphish-example .ui-btn .ui-icon {
+    width: 30px!important;
+    height: 30px!important;
+    margin-left: -15px !important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+#home .ui-icon {
+    background: url(glyphish-icons/53-house.png) 50% 50% no-repeat;
+    background-size: 24px 22px;
+}
+#key .ui-icon {
+    background: url(glyphish-icons/30-key.png) 50% 50% no-repeat;
+    background-size: 12px 26px;
+}
+#email .ui-icon {
+    background: url(glyphish-icons/18-envelope.png) 50% 50% no-repeat;
+    background-size: 24px 16px;
+}
+#login .ui-icon {
+    background: url(glyphish-icons/30-key.png) 50% 50% no-repeat;
+    background-size: 12px 26px;
+}
+#map .ui-icon {
+    background: url(glyphish-icons/07-map-marker.png) 50% 50% no-repeat;
+    background-size: 16px 26px;
+}
+#coffee .ui-icon {
+    background: url(glyphish-icons/100-coffee.png) 50% 50% no-repeat;
+    background-size: 20px 24px;
+}
+#skull .ui-icon {
+    background: url(glyphish-icons/21-skull.png) 50% 50% no-repeat;
+    background-size: 22px 24px;
+}
+.selected {
+	background:#2fa969 !important;
+}
+body {
+	background:#fbf2ed;
+	margin:0;
+	font-family:Helvetica Neue, Helvetica, sans-serif;
+}
+#key {
+	-webkit-transform: rotate(-90deg); 
+	-moz-transform: rotate(-90deg);	
+	position:absolute;
+	top:0;
+	width:650px;
+	left:-300px;
+}
+#content {
+	width:200px;
+	left:120px;
+	height:455px;
+	
+	position:absolute;
+}
+#space {
+	position:absolute;
+	top:410px;
+	width:50px;
+	height:40px;
+	background:#8f2200;
+	color:#fff;
+	left:10px;
+	padding:5px;
+	z-index:100;
+}
+#clear {
+	position:absolute;
+	top:0px;
+	width:40px;
+	height:20px;
+	background:#8f2200;
+	color:#fff;
+	left:10px;
+	padding:5px;
+	z-index:100;
+}
+#backspace{
+	position:absolute;
+	top:420px;
+	width:50px;
+	height:30px;
+	background:#eee;
+	left:70px;
+	padding:5px;
+	z-index:100;
+	margin-left:10px;
+}
+.chorded  {
+	width:150px;
+	float:right;
+}
+.box {
+	width:150px;
+	height:82px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#fff;
+	background:#403f44;
+	float:right;
+}
